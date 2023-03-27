@@ -4,7 +4,6 @@
 from typing import List
 import netmiko
 from netmiko import ConnectHandler
-from itertools import groupby
 #IP list of the switches. 
 IPs = ['10.10.10.10','20.20.20.20','30.30.30.30']#You can retreive this list from a file.
 #Put your VLAN string here. It is possible to create a multiple vlan setup. 
